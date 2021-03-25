@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    code {
+        background-color: black;
+        color: white;
+        font-size: 1.5rem;
+    }</style>
+    <title>Git and Github</title>
+</head>
+<body>
+    <div>
+        <h1>Git</h1>
+        <p><b>git</b> - version control system, manage source code history (local).</p>
+        <p><b>repository</b> - the location where your code history is stored.</p>
+        <p><b>branch</b> - “folder” within the repository containing commits.</p>
+        <p>Git helps control and manage folders/files.</p>
+        <p>Git can be accessed through <b>the terminal</b>. </p>
+
+        <h2>Commands</h2>
+        <code>git init [repository name]</code>
+        <p>This command is used to start a new repository.</p>
+        <code>git add . </code>
+        <p> It tells Git that you want to include updates to a particular file in the next commit.</p>
+        <code>git status</code>
+        <p>This command lists all the files that have to be committed.</p>
+        <code>git commit -m “name for the commit”</code>
+        <p>This command records or snapshots the file permanently in the version history.        </p>
+        <code>git log</code>
+        <p>This command displays all of the commits in a repository's history.</p>
+        <code>git reset --hard[id of the git you want to go back to]git reset --hard[id of the git you want to go back to]</code>
+        <p>This command clears the mess from the index file and the working tree. </p>
+        <code>git checkout -- . </code>
+        <p>The git checkout command is used to update the state of the repository to a specific point in the project's history.</p>
+        <code>git branch</code>
+        <p>This command helps you create, delete, and list branches.</p>
+        <code>git checkout -b [name of branch]</code>
+        <p>This command creates and accesses the new branch.</p>
+        <code>git branch -D [name of the branch]</code>
+        <p>This command deletes the branch.</p>
+        <code>git merge</code>
+        <p>This command is used to integrate changes from another branch.</p>
+    
+    </div>
+
+    <hr>
+
+    <div>
+        <h1>Github</h1>
+        <p><b>github</b> - git repository hosting (online)</p>
+
+        <h2>Commands</h2>
+        <code>git remote add origin [link]</code>
+        <p>Establishes a connection between a local and an online repository.</p>
+        <code>git remote</code>
+        <p>This command is one piece of the broader system which is responsible for syncing changes. Records registered through the git remote command are used in conjunction with the git fetch , git push , and git pull commands.</p>
+        <code>git remote -v</code>
+        <p>Shows where the repository is being pushed to (shows link).</p>
+        <code>git push</code>
+        <p>This command is used to upload local repository content to a remote repository.</p>
+        <code>git clone [repository link]</code>
+        <p>Clones all the contents to local repository</p>
+        <code>git fetch</code>
+        <p>This is a primary command used to download contents from a remote repository.</p>
+        <code>git pull</code>
+        <p>Fetches code from remote branch and merges with a local branch.</p>
+      <br>
+      <p>You can delete a repository on github from the repository’s settings by going to the danger zone on the bottom of the settings page.    </p>
+
+        
+    </div>
+
+</body>
+</html>
